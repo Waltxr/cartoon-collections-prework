@@ -27,5 +27,3 @@ def find_the_cheese(string)
   end
 
 end
-
-
