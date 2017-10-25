@@ -4,10 +4,10 @@ end
 
 def summon_captain_planet(planeteer_calls)
 
-  planeteer_calls.map do |call| 
-    call[0].upcase
+  planeteer_calls.map do |call|
+    call[0].upcase!
     call << "!"
-  end 
+  end
     
 end
 
